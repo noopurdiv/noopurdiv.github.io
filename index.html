@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noopur Divekar &mdash; Data Scientist &amp; ML Engineer</title>
+  <meta name="description"
+    content="Portfolio of Noopur Divekar - Data Scientist, ML Engineer, and Analytics professional.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">ND.</a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#experience" class="nav__link">Experience</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#certifications" class="nav__link">Certifications</a></li>
+        <li><a href="#education" class="nav__link">Education</a></li>
+        <li><a href="#recommendations" class="nav__link">Recommendations</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__overlay" id="navOverlay"></div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero__content">
+        <div class="hero__status reveal"><span class="hero__status-dot"></span> Open to work</div>
+        <h1 class="hero__name reveal reveal-delay-1">NOOPUR DIVEKAR</h1>
+        <p class="hero__roles-line reveal reveal-delay-2">Data Analyst &middot; Data Scientist &middot; Analytics
+          Engineer &middot; AI &amp; ML</p>
+        <p class="hero__tagline reveal reveal-delay-2"><strong>Turning complex data into strategic decisions, from $994M risk mitigation dashboards to multi-agent AI systems, I build solutions and products that move the needle.</strong></p>
+        <div class="hero__cta-group reveal reveal-delay-3">
+          <a href="#experience" class="btn btn--primary">Check out my experience <svg xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M5 12h14" />
+              <path d="m12 5 7 7-7 7" />
+            </svg></a>
+          <a href="#projects" class="btn btn--outline">View projects</a>
+          <a href="#contact" class="btn btn--outline">Let&rsquo;s connect</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll-indicator" aria-hidden="true"><span>Scroll</span><svg xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+        stroke-linejoin="round">
+        <path d="M12 5v14" />
+        <path d="m19 12-7 7-7-7" />
+      </svg></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="about__inner">
+        <div class="about__photo-wrapper reveal">
+          <img src="Images/Hero Section Headshots/Headshot 4.jpeg" alt="Noopur Divekar" class="about__photo"
+            loading="lazy">
+        </div>
+        <div>
+          <p class="section-label reveal">About</p>
+          <h2 class="section-title reveal reveal-delay-1">Building data products that drive impact.</h2>
+          <div class="about__text">
+            <p class="reveal reveal-delay-2">I&#8217;m pursuing my Master&#8217;s in Data Science at Indiana University
+              Bloomington, graduating in May 2026. I specialize in architecting end-to-end Data and AI pipelines that
+              automate manual processes and transform raw information into actionable business intelligence.</p>
+            <p class="reveal reveal-delay-3">From engineering ML pipelines on AWS to building Power BI dashboards that
+              mitigate nearly $1B in operational risk, I bring a rare blend of technical depth and business acumen.
+              I&#8217;ve worked across startups (Project 990 Inc.), Fortune 500 companies (Zoetis), and academic
+              research (The Millennium Project).</p>
+            <p class="reveal reveal-delay-4">My approach is centered on active stakeholder collaboration: I deep-dive
+              into the problem, engineer the right solution, and distill technical findings into clear, persuasive
+              narratives that drive decisions. I build solutions that matter.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <p class="section-label reveal">Experience</p>
+      <h2 class="section-title reveal reveal-delay-1">Where I&#8217;ve made impact.</h2>
+      <div class="experience__timeline">
+
+        <div class="experience__item reveal">
+          <div class="experience__header" onclick="this.parentElement.classList.toggle('open')">
+            <div class="experience__date">Jan 2026 &mdash; Present</div>
+            <div>
+              <h3 class="experience__role">Data Scientist</h3>
+              <div class="experience__company">Project 990 Inc.</div>
+            </div>
+            <div class="experience__toggle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m6 9 6 6 6-6" />
+              </svg></div>
+          </div>
+          <div class="experience__details-wrapper">
+            <ul class="experience__details">
+              <li>Developed an NTEE Code Prediction system using a Fast Classifier and Chain-of-Thought reasoning to categorize nonprofit mission statements from Form 990 filings of non-profits.</li>
+              <li>Engineered an automated regex-based text extraction pipeline to isolate useful mission statements from
+                IRS boilerplate, ensuring high-fidelity data for downstream classification.</li>
+              <li>Created the "Mapping Similar Funders" Tableau visualization by synthesizing grant data extracted from
+                millions of 990 and 990PF forms, providing insights into philanthropic flows and charitable giving in
+                the U.S.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="experience__item reveal">
+          <div class="experience__header" onclick="this.parentElement.classList.toggle('open')">
+            <div class="experience__date">May 2025 &mdash; Dec 2025</div>
+            <div>
+              <h3 class="experience__role">Data Analytics Intern</h3>
+              <div class="experience__company">Zoetis Inc. &mdash; Kalamazoo, Michigan <span
+                  class="experience__impact-tag">$994M Impact</span></div>
+            </div>
+            <div class="experience__toggle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m6 9 6 6 6-6" />
+              </svg></div>
+          </div>
+          <div class="experience__details-wrapper">
+            <ul class="experience__details">
+              <li>Mitigated $994M in potential annual operational risk by synthesizing complex datasets into intuitive
+                visual narratives within Power BI, enabling executives to identify capacity utilization and supply chain
+                bottlenecks.</li>
+              <li>Improved accuracy of capacity planning by integrating data from SAP and SQL, validating across
+                cross-functional teams, and standardizing formulas for consistent enterprise-wide reporting.</li>
+              <li>Engineered scenario simulations in Power BI using advanced DAX, delivering actionable insights that
+                guided leaders in strategic resource reallocation and risk reduction.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="experience__item reveal">
+          <div class="experience__header" onclick="this.parentElement.classList.toggle('open')">
+            <div class="experience__date">Aug 2024 &mdash; Present</div>
+            <div>
+              <h3 class="experience__role">Graduate Data Analyst and Assistant</h3>
+              <div class="experience__company">Indiana University Admissions</div>
+            </div>
+            <div class="experience__toggle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m6 9 6 6 6-6" />
+              </svg></div>
+          </div>
+          <div class="experience__details-wrapper">
+            <ul class="experience__details">
+              <li>Orchestrated and delivered IU Information presentations to diverse stakeholder groups including over
+                4000 prospective students, articulating university value propositions to drive enrollment interest.</li>
+              <li>Served as the primary liaison for large-scale admissions events, coordinating real-time communications
+                between staff and attendees.</li>
+              <li>Translated complex outreach and recruitment data of last 3 years into actionable business insights
+                using advanced Excel and Power BI, presenting findings to senior leadership.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="experience__item reveal">
+          <div class="experience__header" onclick="this.parentElement.classList.toggle('open')">
+            <div class="experience__date">Oct 2023 &mdash; Dec 2023</div>
+            <div>
+              <h3 class="experience__role">Data Science Intern</h3>
+              <div class="experience__company">TechnoHacks EduTech &mdash; Mumbai, India</div>
+            </div>
+            <div class="experience__toggle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m6 9 6 6 6-6" />
+              </svg></div>
+          </div>
+          <div class="experience__details-wrapper">
+            <ul class="experience__details">
+              <li>Built end-to-end ETL pipelines using SQL and Power Query to clean and structure raw financial data,
+                improving reporting efficiency by 25%.</li>
+              <li>Performed data analysis in Python and R, uncovering trends that informed budget optimization and
+                forecasting accuracy.</li>
+              <li>Created interactive Power BI dashboards with real-time KPIs, guiding 3 strategic campaign adjustments
+                and increasing conversion rates by 18%.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="experience__item reveal">
+          <div class="experience__header" onclick="this.parentElement.classList.toggle('open')">
+            <div class="experience__date">Jul 2023 &mdash; Sep 2023</div>
+            <div>
+              <h3 class="experience__role">Data Science &amp; Business Analytics Intern</h3>
+              <div class="experience__company">The Sparks Foundation &mdash; Mumbai, India</div>
+            </div>
+            <div class="experience__toggle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m6 9 6 6 6-6" />
+              </svg></div>
+          </div>
+          <div class="experience__details-wrapper">
+            <ul class="experience__details">
+              <li>Spearheaded predictive modeling in Python to identify at-risk learners, enabling educators to
+                implement interventions 20% earlier.</li>
+              <li>Directed the development of interactive Tableau dashboards, translating model results into accessible
+                insights for curriculum adjustments.</li>
+              <li>Facilitated collaboration across cross-functional teams to validate models, ensuring scalability and
+                reliability of analytics.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <p class="section-label reveal">Skills</p>
+      <h2 class="section-title reveal reveal-delay-1">What I bring to the table.</h2>
+      <div class="skills__filters reveal reveal-delay-2">
+        <button class="skills__filter-btn active" data-filter="all">All</button>
+        <button class="skills__filter-btn" data-filter="programming">Programming Languages</button>
+        <button class="skills__filter-btn" data-filter="bi">Data Analysis &amp; Business Intelligence</button>
+        <button class="skills__filter-btn" data-filter="ml">AI &amp; Machine Learning</button>
+        <button class="skills__filter-btn" data-filter="bigdata">Big Data</button>
+        <button class="skills__filter-btn" data-filter="db">Database &amp; Storage</button>
+        <button class="skills__filter-btn" data-filter="cloud">Cloud &amp; DevOps</button>
+        <button class="skills__filter-btn" data-filter="genai">GenAI</button>
+      </div>
+      <div class="skills__grid reveal reveal-delay-3">
+        <div class="skill-card" data-category="programming">Python</div>
+        <div class="skill-card" data-category="programming">SQL</div>
+        <div class="skill-card" data-category="programming">R</div>
+        <div class="skill-card" data-category="programming">PySpark</div>
+        <div class="skill-card" data-category="programming">DAX</div>
+        <div class="skill-card" data-category="bi">Power BI</div>
+        <div class="skill-card" data-category="bi">Tableau</div>
+        <div class="skill-card" data-category="bi">Looker</div>
+        <div class="skill-card" data-category="bi">Advanced Excel</div>
+        <div class="skill-card" data-category="bi">Plotly</div>
+        <div class="skill-card" data-category="bi">Matplotlib</div>
+        <div class="skill-card" data-category="bi">Weights &amp; Biases</div>
+        <div class="skill-card" data-category="ml">XGBoost</div>
+        <div class="skill-card" data-category="ml">Random Forest</div>
+        <div class="skill-card" data-category="ml">NLP</div>
+        <div class="skill-card" data-category="ml">Transformers</div>
+        <div class="skill-card" data-category="ml">HuggingFace</div>
+        <div class="skill-card" data-category="ml">NLTK</div>
+        <div class="skill-card" data-category="ml">Computer Vision</div>
+        <div class="skill-card" data-category="ml">OpenCV</div>
+        <div class="skill-card" data-category="ml">TensorFlow/Keras</div>
+        <div class="skill-card" data-category="ml">PyTorch</div>
+        <div class="skill-card" data-category="ml">Causal Inference</div>
+        <div class="skill-card" data-category="ml">Uplift Modeling</div>
+        <div class="skill-card" data-category="ml">A/B Testing</div>
+        <div class="skill-card" data-category="bigdata">Databricks</div>
+        <div class="skill-card" data-category="bigdata">Microsoft Fabric</div>
+        <div class="skill-card" data-category="bigdata">dbt</div>
+        <div class="skill-card" data-category="bigdata">ETL/ELT Pipelines</div>
+        <div class="skill-card" data-category="bigdata">Prefect</div>
+        <div class="skill-card" data-category="db">PostgreSQL</div>
+        <div class="skill-card" data-category="db">MySQL</div>
+        <div class="skill-card" data-category="db">SQL Server</div>
+        <div class="skill-card" data-category="db">SQLite</div>
+        <div class="skill-card" data-category="db">Oracle</div>
+        <div class="skill-card" data-category="db">Google BigQuery</div>
+        <div class="skill-card" data-category="cloud">AWS (S3, EC2, SageMaker)</div>
+        <div class="skill-card" data-category="cloud">Azure Cloud</div>
+        <div class="skill-card" data-category="cloud">Git</div>
+        <div class="skill-card" data-category="cloud">GitHub Actions</div>
+        <div class="skill-card" data-category="cloud">SAP ECC</div>
+        <div class="skill-card" data-category="genai">Claude Code</div>
+        <div class="skill-card" data-category="genai">ChatGPT</div>
+        <div class="skill-card" data-category="genai">Gemini</div>
+        <div class="skill-card" data-category="genai">Prompt Engineering</div>
+        <div class="skill-card" data-category="genai">Vibe Coding</div>
+        <div class="skill-card" data-category="genai">LLM Fine-Tuning</div>
+        <div class="skill-card" data-category="genai">Groq API</div>
+        <div class="skill-card" data-category="genai">LangGraph</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <p class="section-label reveal">Projects</p>
+      <h2 class="section-title reveal reveal-delay-1">What I&#8217;ve been working on.</h2>
+      <div class="projects__filters reveal reveal-delay-2">
+        <button class="projects__filter-btn active" data-project-filter="all">All</button>
+        <button class="projects__filter-btn" data-project-filter="analytics">Data Analytics &amp; Business
+          Intelligence</button>
+        <button class="projects__filter-btn" data-project-filter="engineering">Data Engineering</button>
+        <button class="projects__filter-btn" data-project-filter="ml">Data Science &amp; Machine Learning</button>
+        <button class="projects__filter-btn" data-project-filter="ai">Artificial Intelligence</button>
+      </div>
+      <div class="projects__grid">
+
+
+
+        <div class="project-card reveal" data-carousel data-project-categories="analytics engineering">
+
+          <div class="project-card__carousel">
+
+            <button class="project-card__nav project-card__nav--prev" aria-label="Previous"><svg
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <polyline points="15 18 9 12 15 6" />
+              </svg></button>
+
+            <button class="project-card__nav project-card__nav--next" aria-label="Next"><svg
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <polyline points="9 18 15 12 9 6" />
+              </svg></button>
+
+            <div class="project-card__slides">
+
+              <div class="project-card__slide"><img
+                  src="Images/Project Thumbnails/Amazon Marketplace Intelligence Platform.png"
+                  alt="Amazon Marketplace Intelligence Platform" loading="lazy"></div>
+
+              <div class="project-card__slide"><img src="Images/Project Thumbnails/Amazon Intelligence Dashboard 1.png"
+                  alt="Amazon Marketplace Intelligence Platform" loading="lazy"></div>
+
+              <div class="project-card__slide"><img src="Images/Project Thumbnails/Amazon Intelligence Dashboard 2.png"
+                  alt="Amazon Marketplace Intelligence Platform" loading="lazy"></div>
+
+              <div class="project-card__slide"><img src="Images/Project Thumbnails/Amazon Intelligence Dashboard 3.png"
+                  alt="Amazon Marketplace Intelligence Platform" loading="lazy"></div>
+
+            </div>
+
+            <div class="project-card__dots"><button class="project-card__dot active"
+                aria-label="Slide 1"></button><button class="project-card__dot" aria-label="Slide 2"></button><button
+                class="project-card__dot" aria-label="Slide 3"></button><button class="project-card__dot"
+                aria-label="Slide 4"></button></div>
+
+          </div>
+
+          <div class="project-card__body">
+
+            <h3 class="project-card__title">Amazon Marketplace Intelligence Platform</h3>
+
+            <p class="project-card__caption">End-to-end cloud analytics pipeline: BigQuery ELT with dbt for 1.4M products across 4 Amazon domains with Power BI reporting.</p>
+
+            <div class="project-card__tags"><span class="project-card__tag">BigQuery</span><span
+                class="project-card__tag">dbt</span><span class="project-card__tag">Power BI</span><span
+                class="project-card__tag">Python</span><span class="project-card__tag">SQL</span><span
+                class="project-card__tag">ETL Pipeline</span></div>
+
+            <div class="project-card__links"><a
+                href="https://github.com/noopurdiv/Amazon-Marketplace-Intelligence/tree/main" target="_blank"
+                rel="noopener" class="project-card__link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </svg> GitHub</a><a
+                href="https://app.powerbi.com/view?r=eyJrIjoiNWQwZjIwOGYtNTY4ZS00ZGI4LWFjMTQtMzAxNjgyYmZlNGFiIiwidCI6IjExMTNiZTM0LWFlZDEtNGQwMC1hYjRiLWNkZDAyNTEwYmU5MSIsImMiOjN9"
+                target="_blank" rel="noopener" class="project-card__link"><svg xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <rect x="3" y="3" width="7" height="18" rx="1" />
+                  <rect x="14" y="9" width="7" height="12" rx="1" />
+                </svg> Power BI</a></div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="project-card reveal" data-carousel data-project-categories="ai">
+
+          <div class="project-card__carousel">
+
+            <div class="project-card__slides">
+
+              <div class="project-card__slide"><img
+                  src="Images/Project Thumbnails/Smart Hospital Multi-Agent AI System.png"
+                  alt="Smart Hospital Multi-Agent AI System" loading="lazy"></div>
+
+            </div>
+
+            <div class="project-card__dots"></div>
+
+          </div>
+
+          <div class="project-card__body">
+
+            <h3 class="project-card__title">Smart Hospital Multi-Agent AI System</h3>
+
+            <p class="project-card__caption">5-agent LangGraph system automating clinical logistics: triage, scheduling, pharmacy, lab, and patient agents using Groq LLM.</p>
+
+            <div class="project-card__tags"><span class="project-card__tag">LangGraph</span><span
+                class="project-card__tag">LLM</span><span class="project-card__tag">PostgreSQL</span><span
+                class="project-card__tag">Python</span><span class="project-card__tag">Agentic AI</span><span
+                class="project-card__tag">API Integration</span></div>
+
+            <div class="project-card__links"><a href="https://github.com/noopurdiv/Smart-Hospital-Multi-Agent-AI-System"
+                target="_blank" rel="noopener" class="project-card__link"><svg xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </svg> GitHub</a><a href="https://devpost.com/software/shmas-smart-hospital-multi-agent-system"
+                target="_blank" rel="noopener" class="project-card__link"><svg xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg> Demo</a></div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="project-card reveal" data-carousel data-project-categories="analytics ml">
+
+          <div class="project-card__carousel">
+
+            <button class="project-card__nav project-card__nav--prev" aria-label="Previous"><svg
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <polyline points="15 18 9 12 15 6" />
+              </svg></button>
+
+            <button class="project-card__nav project-card__nav--next" aria-label="Next"><svg
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <polyline points="9 18 15 12 9 6" />
+              </svg></button>
+
+            <div class="project-card__slides">
+
+              <div class="project-card__slide"><img
+                  src="Images/Project Thumbnails/Telco Customer Retention Dashboard.png"
+                  alt="Telco Customer Retention Optimizer" loading="lazy"></div>
+
+              <div class="project-card__slide"><img
+                  src="Images/Project Thumbnails/Telco Customer Retention Optimizer.png"
+                  alt="Telco Customer Retention Optimizer" loading="lazy"></div>
+
+            </div>
+
+            <div class="project-card__dots"><button class="project-card__dot active"
+                aria-label="Slide 1"></button><button class="project-card__dot" aria-label="Slide 2"></button></div>
+
+          </div>
+
+          <div class="project-card__body">
+
+            <h3 class="project-card__title">Telco Customer Retention Optimizer</h3>
+
+            <p class="project-card__caption">Causal uplift modeling with Power BI integration to optimize retention strategies using A/B testing.</p>
+
+            <div class="project-card__tags"><span class="project-card__tag">Python</span><span
+                class="project-card__tag">Scikit-Learn</span><span class="project-card__tag">Uplift Modeling</span><span
+                class="project-card__tag">Power BI</span><span class="project-card__tag">A/B Testing</span><span
+                class="project-card__tag">Causal Analysis</span></div>
+
+            <div class="project-card__links"><a href="https://github.com/noopurdiv/Telco-Customer-Retention-AB-Testing"
+                target="_blank" rel="noopener" class="project-card__link"><svg xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </svg> GitHub</a><a
+                href="https://app.powerbi.com/view?r=eyJrIjoiM2U0ZWFkYWEtYWQxZi00NTNmLWE0Y2UtMGFiZDk5MTc4ZGNmIiwidCI6IjExMTNiZTM0LWFlZDEtNGQwMC1hYjRiLWNkZDAyNTEwYmU5MSIsImMiOjN9"
+                target="_blank" rel="noopener" class="project-card__link"><svg xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <rect x="3" y="3" width="7" height="18" rx="1" />
+                  <rect x="14" y="9" width="7" height="12" rx="1" />
+                </svg> Power BI</a></div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="project-card reveal" data-carousel data-project-categories="engineering ml">
+
+          <div class="project-card__carousel">
+
+            <div class="project-card__slides">
+
+              <div class="project-card__slide"><img
+                  src="Images/Project Thumbnails/Cloud-Native Customer Churn Prediction Pipeline.png"
+                  alt="Cloud-Native Customer Churn Prediction Pipeline" loading="lazy"></div>
+
+            </div>
+
+            <div class="project-card__dots"></div>
+
+          </div>
+
+          <div class="project-card__body">
+
+            <h3 class="project-card__title">Cloud-Native Customer Churn Prediction Pipeline</h3>
+
+            <p class="project-card__caption">Full AWS pipeline: PySpark ETL, feature engineering, XGBoost on SageMaker Canvas, Power BI dashboard.</p>
+
+            <div class="project-card__tags"><span class="project-card__tag">AWS</span><span
+                class="project-card__tag">PySpark</span><span class="project-card__tag">XGBoost</span><span
+                class="project-card__tag">SageMaker</span><span class="project-card__tag">Power BI</span></div>
+
+            <div class="project-card__links"><a href="https://github.com/noopurdiv/AWS-PySpark-Customer-Churn-Pipeline"
+                target="_blank" rel="noopener" class="project-card__link"><svg xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </svg> GitHub</a></div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="project-card reveal" data-carousel data-project-categories="ml">
+
+          <div class="project-card__carousel">
+
+            <div class="project-card__slides">
+
+              <div class="project-card__slide"><img src="Images/Project Thumbnails/Super Bowl Win Probability Model.png"
+                  alt="Super Bowl Win Probability Model" loading="lazy"></div>
+
+            </div>
+
+            <div class="project-card__dots"></div>
+
+          </div>
+
+          <div class="project-card__body">
+
+            <h3 class="project-card__title">Super Bowl Win Probability Model</h3>
+
+            <p class="project-card__caption">Logistic regression model predicting Super Bowl outcomes using historical NFL statistics.</p>
+
+            <div class="project-card__tags"><span class="project-card__tag">Python</span><span
+                class="project-card__tag">Scikit-Learn</span><span class="project-card__tag">Logistic
+                Regression</span><span class="project-card__tag">SQL</span><span
+                class="project-card__tag">nfl_data_py</span></div>
+
+            <div class="project-card__links"><a href="https://github.com/noopurdiv/nflwinner" target="_blank"
+                rel="noopener" class="project-card__link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </svg> GitHub</a></div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="project-card reveal" data-carousel data-project-categories="analytics">
+
+          <div class="project-card__carousel">
+
+            <div class="project-card__slides">
+
+              <div class="project-card__slide"><img
+                  src="Images/Project Thumbnails/Global Policy Scenario Dashboard The Millennium Project.png"
+                  alt="Global Policy Scenario Dashboard" loading="lazy"></div>
+
+            </div>
+
+            <div class="project-card__dots"></div>
+
+          </div>
+
+          <div class="project-card__body">
+
+            <h3 class="project-card__title">Global Policy Scenario Dashboard</h3>
+
+            <p class="project-card__caption">Interactive Power BI dashboard for the Millennium Project&#8217;s State of the Future Index, with what-if scenario simulations using advanced DAX.</p>
+
+            <div class="project-card__tags"><span class="project-card__tag">Power BI</span><span
+                class="project-card__tag">DAX</span><span class="project-card__tag">Python</span><span
+                class="project-card__tag">Sensitivity Analysis</span><span class="project-card__tag">Advanced
+                Excel</span><span class="project-card__tag">What-If Analysis</span></div>
+
+            <div class="project-card__links"><span class="project-card__link project-card__link--nda"><svg
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                </svg> NDA Protected</span><a
+                href="https://app.powerbi.com/view?r=eyJrIjoiYzNkMTJiNzItOGZmZS00NmVkLThjMzMtZmM0ZjIzZmJmYjkzIiwidCI6IjExMTNiZTM0LWFlZDEtNGQwMC1hYjRiLWNkZDAyNTEwYmU5MSIsImMiOjN9"
+                target="_blank" rel="noopener" class="project-card__link"><svg xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <rect x="3" y="3" width="7" height="18" rx="1" />
+                  <rect x="14" y="9" width="7" height="12" rx="1" />
+                </svg> Power BI</a></div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="project-card reveal" data-carousel data-project-categories="ai ml">
+
+          <div class="project-card__carousel">
+
+            <div class="project-card__slides">
+
+              <div class="project-card__slide"><img src="Images/Project Thumbnails/YouTube Learning Pathway Creator.png"
+                  alt="AI-Powered YouTube Learning Path Generator" loading="lazy"></div>
+
+            </div>
+
+            <div class="project-card__dots"></div>
+
+          </div>
+
+          <div class="project-card__body">
+
+            <h3 class="project-card__title">AI-Powered YouTube Learning Path Generator</h3>
+
+            <p class="project-card__caption">NLP-powered system that structures YouTube videos into personalized learning paths using TF-IDF and cosine similarity.</p>
+
+            <div class="project-card__tags"><span class="project-card__tag">Python</span><span
+                class="project-card__tag">YouTube API</span><span class="project-card__tag">NLTK</span><span
+                class="project-card__tag">NetworkX</span><span class="project-card__tag">TF-IDF</span></div>
+
+            <div class="project-card__links"><a href="https://github.com/noopurdiv/YouTube-Learning-Path-Generator"
+                target="_blank" rel="noopener" class="project-card__link"><svg xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </svg> GitHub</a></div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="project-card reveal" data-carousel data-project-categories="ai ml">
+
+          <div class="project-card__carousel">
+
+            <div class="project-card__slides">
+
+              <div class="project-card__slide"><img src="Images/Project Thumbnails/precision-agriculture.png"
+                  alt="Precision Agriculture &#8212; Weed &amp; Crop Detection" loading="lazy"></div>
+
+            </div>
+
+            <div class="project-card__dots"></div>
+
+          </div>
+
+          <div class="project-card__body">
+
+            <h3 class="project-card__title">Precision Agriculture &#8212; Weed &amp; Crop Detection</h3>
+
+            <p class="project-card__caption">CNN-based image classification model to distinguish weeds from crops using drone imagery for precision spraying.</p>
+
+            <div class="project-card__tags"><span class="project-card__tag">TensorFlow</span><span
+                class="project-card__tag">Keras</span><span class="project-card__tag">OpenCV</span><span
+                class="project-card__tag">CNN</span><span class="project-card__tag">Computer Vision</span></div>
+
+            <div class="project-card__links"><a href="https://github.com/noopurdiv/weeddetection" target="_blank"
+                rel="noopener" class="project-card__link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </svg> GitHub</a></div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="project-card reveal" data-carousel data-project-categories="ai ml">
+
+          <div class="project-card__carousel">
+
+            <div class="project-card__slides">
+
+              <div class="project-card__slide"><img src="Images/Project Thumbnails/deepfake-video-detection.png"
+                  alt="Deepfake Video Detection System" loading="lazy"></div>
+
+            </div>
+
+            <div class="project-card__dots"></div>
+
+          </div>
+
+          <div class="project-card__body">
+
+            <h3 class="project-card__title">Deepfake Video Detection System</h3>
+
+            <p class="project-card__caption">Computer vision pipeline for detecting deepfake videos using frame-level classifier with transfer learning.</p>
+
+            <div class="project-card__tags"><span class="project-card__tag">Python</span><span
+                class="project-card__tag">OpenCV</span><span class="project-card__tag">Scikit-Learn</span><span
+                class="project-card__tag">Computer Vision</span><span class="project-card__tag">EDA</span></div>
+
+            <div class="project-card__links"><a href="https://github.com/noopurdiv/deepfakedetection" target="_blank"
+                rel="noopener" class="project-card__link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </svg> GitHub</a></div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="project-card reveal" data-carousel data-project-categories="analytics ml">
+
+          <div class="project-card__carousel">
+
+            <div class="project-card__slides">
+
+              <div class="project-card__slide"><img
+                  src="Images/Project Thumbnails/WiFi-Based Venue Advertising Analytics.jpg"
+                  alt="WiFi-Based Venue Advertising Analytics" loading="lazy"></div>
+
+            </div>
+
+            <div class="project-card__dots"></div>
+
+          </div>
+
+          <div class="project-card__body">
+
+            <h3 class="project-card__title">WiFi-Based Venue Advertising Analytics</h3>
+
+            <p class="project-card__caption">Graph-analytics and clustering on WiFi probe data to uncover mobility patterns at university venues; Python and NetworkX.</p>
+
+            <div class="project-card__tags"><span class="project-card__tag">Python</span><span
+                class="project-card__tag">NetworkX</span><span class="project-card__tag">Graph Analytics</span><span
+                class="project-card__tag">Pandas</span><span class="project-card__tag">Matplotlib</span></div>
+
+            <div class="project-card__links"><a href="https://github.com/noopurdiv/WiFi-Ads-Analytics" target="_blank"
+                rel="noopener" class="project-card__link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </svg> GitHub</a></div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="project-card reveal" data-carousel data-project-categories="analytics">
+
+          <div class="project-card__carousel">
+
+            <div class="project-card__slides">
+
+              <div class="project-card__slide"><img
+                  src="Images/Project Thumbnails/Global Internet Penetration Trend Analysis.webp"
+                  alt="Global Internet Penetration Trend Analysis" loading="lazy"></div>
+
+            </div>
+
+            <div class="project-card__dots"></div>
+
+          </div>
+
+          <div class="project-card__body">
+
+            <h3 class="project-card__title">Global Internet Penetration Trend Analysis</h3>
+
+            <p class="project-card__caption">World-scale analysis of internet usage data with interactive Plotly visualizations and statistical analysis.</p>
+
+            <div class="project-card__tags"><span class="project-card__tag">Python</span><span
+                class="project-card__tag">SQL</span><span class="project-card__tag">Plotly</span><span
+                class="project-card__tag">K-Means Clustering</span><span class="project-card__tag">SQLite</span></div>
+
+            <div class="project-card__links"><a
+                href="https://github.com/noopurdiv/Global-Internet-Usage-Analysis-and-Visualization" target="_blank"
+                rel="noopener" class="project-card__link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </svg> GitHub</a></div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="project-card reveal" data-carousel data-project-categories="ai">
+
+          <div class="project-card__carousel">
+
+            <div class="project-card__slides">
+
+              <div class="project-card__slide"><img src="Images/Project Thumbnails/diet-conversational-ai.png"
+                  alt="Diet Conversational AI &#8212; LLM Fine-Tuning" loading="lazy"></div>
+
+            </div>
+
+            <div class="project-card__dots"></div>
+
+          </div>
+
+          <div class="project-card__body">
+
+            <h3 class="project-card__title">Diet Conversational AI &#8212; LLM Fine-Tuning</h3>
+
+            <p class="project-card__caption">Fine-tuned Llama 3.2 on nutrition QA datasets using QLoRA and HuggingFace for a dietary advice chatbot.</p>
+
+            <div class="project-card__tags"><span class="project-card__tag">PyTorch</span><span
+                class="project-card__tag">HuggingFace</span><span class="project-card__tag">Flan-T5</span><span
+                class="project-card__tag">Weights &amp; Biases</span><span class="project-card__tag">NLP</span></div>
+
+            <div class="project-card__links"><a href="https://github.com/noopurdiv/Diet-Conversational-AI"
+                target="_blank" rel="noopener" class="project-card__link"><svg xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                </svg> GitHub</a></div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications">
+    <div class="container">
+      <p class="section-label reveal">Certifications</p>
+      <h2 class="section-title reveal reveal-delay-1">Industry-validated credentials.</h2>
+      <div class="certifications__grid">
+
+        <div class="cert-card reveal">
+          <img src="Images/Certification Logos/microsoft-badge.svg" alt="Microsoft" class="cert-card__logo"
+            onerror="this.style.display='none'">
+          <div>
+            <div class="cert-card__issuer">Microsoft</div>
+            <h3 class="cert-card__name">Power BI Data Analyst Associate (PL-300)</h3>
+            <div class="cert-card__meta"><span>Credential ID: 5F24CF7B8DDFAE2C</span></div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal reveal-delay-1">
+          <img src="Images/Certification Logos/microsoft-badge.svg" alt="Microsoft" class="cert-card__logo"
+            onerror="this.style.display='none'">
+          <div>
+            <div class="cert-card__issuer">Microsoft</div>
+            <h3 class="cert-card__name">Fabric Analytics Engineer Associate (DP-600)</h3>
+            <div class="cert-card__meta"><span>Credential ID: 4E6EC08E0131E3B7</span></div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal reveal-delay-2">
+          <img src="Images/Certification Logos/datacamp.png" alt="DataCamp" class="cert-card__logo">
+          <div>
+            <div class="cert-card__issuer">DataCamp</div>
+            <h3 class="cert-card__name">Associate Data Analyst in SQL</h3>
+            <div class="cert-card__meta"><span>Credential ID: DAA0013414919458</span></div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <img src="Images/Certification Logos/datacamp.png" alt="DataCamp" class="cert-card__logo">
+          <div>
+            <div class="cert-card__issuer">DataCamp</div>
+            <h3 class="cert-card__name">Data Analyst in Power BI</h3>
+            <div class="cert-card__meta"><span>Credential ID: DA0011635069697</span></div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal reveal-delay-1">
+          <img src="Images/Certification Logos/ibm.png" alt="IBM" class="cert-card__logo">
+          <div>
+            <div class="cert-card__issuer">IBM</div>
+            <h3 class="cert-card__name">Data Science Professional Certificate</h3>
+            <div class="cert-card__meta"><span>Credential ID: BPCL3UEPXHLT</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="container">
+      <p class="section-label reveal">Education</p>
+      <h2 class="section-title reveal reveal-delay-1">Academic foundation.</h2>
+      <div class="education__grid">
+        <div class="education-card reveal">
+          <h3 class="education-card__degree">Master of Science, Data Science</h3>
+          <div class="education-card__school">Indiana University Bloomington</div>
+          <div class="education-card__meta">
+            <span>GPA: 3.82 / 4.0</span>
+            <span>May 2026</span>
+          </div>
+          <div class="education-card__coursework"><strong>Relevant Coursework:</strong> Applied Machine Learning,
+            Information Visualization, Big Data Analytics, Statistics, Data Visualization, Social Media Mining,
+            Management of Big Data, Applied Database Technologies, Independent Study</div>
+        </div>
+        <div class="education-card reveal reveal-delay-1">
+          <h3 class="education-card__degree">Bachelor of Engineering, Electronics</h3>
+          <div class="education-card__school">University of Mumbai</div>
+          <div class="education-card__meta">
+            <span>GPA: 3.7 / 4.0</span>
+            <span>May 2024</span>
+          </div>
+          <div class="education-card__coursework"><strong>Relevant Coursework:</strong> Database Management System
+            (SQL), Database Management System (MongoDB), Programming for Problem Solving (Python, JavaScript, Node.js),
+            Machine Learning</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECOMMENDATIONS -->
+  <section id="recommendations">
+    <div class="container">
+      <p class="section-label reveal">Recommendations</p>
+      <h2 class="section-title reveal reveal-delay-1">What it&#8217;s like to have me on the team.</h2>
+      <div class="recommendations__grid" style="margin-top: var(--space-12);">
+
+        <div class="rec-card reveal">
+          <div class="rec-card__quote-mark">&ldquo;</div>
+          <p class="rec-card__text">I had the pleasure of working with Noopur on a visualization project of the State of
+            the Future Index (SOFI) of the Millennium Project, as part of her Information Visualization course at
+            Indiana University. The task was to create an interacting model to show the SOFI usefulness to analysis and
+            policy making. As a team leader, Noopur demonstrated exceptional leadership both in communicated with us as
+            a client, as well as guiding the project to a professional-grade deliverable. She proved an exceptional
+            understanding of the large, deeply interconnected dataset and the goal, engineering a sophisticated solution
+            using advanced Power BI and complex DAX. An interactive &#8216;What-If&#8217; included in the model allows
+            to simulate various scenarios compounding environmental changes in real-time. Her ability to execute such a
+            complex model under tight deadlines proves exceptional combination of technical and leadership skills. I
+            would definitely work with her again and highly recommend her for any data science or analytics role.</p>
+          <div class="rec-card__author">
+            <img src="Images/Recommendation Giver Profile Photos/Elizabeth Florescu.jpg" alt="Elizabeth Florescu"
+              class="rec-card__photo" loading="lazy">
+            <div>
+              <span class="rec-card__name">Elizabeth Florescu</span>
+              <span class="rec-card__title">Director of Research, The Millennium Project</span>
+              <span class="rec-card__relation">Project Mentor</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="rec-card reveal reveal-delay-1">
+          <div class="rec-card__quote-mark">&ldquo;</div>
+          <p class="rec-card__text">I highly recommend Noopur for her outstanding skills in data analytics, especially
+            with Power BI. During her internship, Noopur demonstrated impressive technical expertise and initiative by
+            developing a complex capacity utilization dashboard in record time. Her ability to quickly understand
+            business requirements, translate them into actionable insights, and deliver a polished, interactive
+            dashboard exceeded expectations. Noopur combines strong analytical thinking with a hands-on approach to
+            problem-solving. Her proficiency with Power BI&#8202;&mdash;&#8202;including data modeling, visualization,
+            and DAX&#8202;&mdash;&#8202;was evident throughout the project, and the dashboard she built has become an
+            invaluable tool for our team. I have no doubt that Noopur will continue to excel and add value wherever she
+            goes. I wholeheartedly endorse her Power BI and data analytics skills!</p>
+          <div class="rec-card__author">
+            <img src="Images/Recommendation Giver Profile Photos/Steven Rivard.jpg" alt="Steven Rivard"
+              class="rec-card__photo" loading="lazy">
+            <div>
+              <span class="rec-card__name">Steven Rivard</span>
+              <span class="rec-card__title">Senior Team Leader &mdash; KZO NextGen (SAP S/4 Hana), Zoetis</span>
+              <span class="rec-card__relation">Manager at recent internship</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements">
+    <div class="container">
+      <p class="section-label reveal">Achievements</p>
+      <h2 class="section-title reveal reveal-delay-1">Milestones &amp; recognition.</h2>
+      <div class="achievements__grid">
+        <div class="achievement-card reveal">
+          <div class="achievement-card__icon">&#x1F3C6;</div>
+          <div>
+            <h3 class="achievement-card__title">Luddy Hackathon Winner</h3>
+            <p class="achievement-card__description">Second runner-up &mdash; designed and deployed the Smart Hospital
+              Multi-Agent AI System (SHMAS) within a strict 48-hour deadline, implementing a 5-agent architecture to
+              automate clinical logistics.</p>
+            <p class="achievement-card__meta">September 2025</p>
+          </div>
+        </div>
+        <div class="achievement-card achievement-card--photo-only reveal">
+          <img src="Images/Hackathon Photo Cropped.JPG" alt="Noopur at Luddy Hackathon"
+            class="achievement-card__full-photo" loading="lazy">
+        </div>
+        <div class="achievement-card reveal reveal-delay-1">
+          <div class="achievement-card__icon">&#x1F4D6;</div>
+          <div>
+            <h3 class="achievement-card__title">Conference Publication &mdash; Multicon 2023 International Conference
+            </h3>
+            <p class="achievement-card__description">Published and presented: &#8220;Hybrid Approach of Seed Spreading
+              and Weed Plucking for Enhanced Crop Yields using Machine Learning.&#8221; Featured in <em>Industrial
+                Internet of Things for Responsible Technology</em>.</p>
+            <p class="achievement-card__meta">ISBN 9781032829401 &middot; May 2023</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <p class="section-label reveal" style="justify-content:center;">Let&#8217;s connect</p>
+      <h2 class="contact__heading reveal reveal-delay-1">Got a role in mind or just want to connect? <em>Let&#8217;s
+          talk.</em></h2>
+      <p class="contact__subtext reveal reveal-delay-2">I&#8217;m always open to discussing data science opportunities,
+        collaborative projects, or just connecting over shared interests in AI and analytics.</p>
+      <div class="contact__links reveal reveal-delay-3">
+        <a href="mailto:ndivekar@iu.edu" class="contact__link"><svg xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+            <polyline points="22,6 12,13 2,6" />
+          </svg> ndivekar@iu.edu</a>
+        <a href="mailto:noopur.div188@gmail.com" class="contact__link"><svg xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+            <polyline points="22,6 12,13 2,6" />
+          </svg> noopur.div188@gmail.com</a>
+        <a href="https://linkedin.com/in/noopurd" target="_blank" rel="noopener" class="contact__link"><svg
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+            <rect x="2" y="9" width="4" height="12" />
+            <circle cx="4" cy="4" r="2" />
+          </svg> LinkedIn</a>
+        <a href="https://github.com/noopurdiv" target="_blank" rel="noopener" class="contact__link"><svg
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+          </svg> GitHub</a>
+        <a href="tel:930-904-3235" class="contact__link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+          </svg> 930-904-3235</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__text">&copy; 2026 Noopur Shekhar Divekar All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+
+
+</html>
