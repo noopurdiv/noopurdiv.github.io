@@ -337,44 +337,7 @@ section {
   top: -0.05em
 }
 
-.hero__status {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-2);
-  font-size: var(--text-small);
-  font-weight: 600;
-  color: #2E7D32;
-  background: #E8F5E9;
-  border: 1.5px solid #A5D6A7;
-  padding: var(--space-2) var(--space-5);
-  border-radius: var(--radius-full);
-  position: absolute;
-  top: 0;
-  right: 0
-}
 
-.hero__status-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: #2E7D32;
-  display: inline-block;
-  animation: pulse-dot 1.5s ease-in-out infinite
-}
-
-@keyframes pulse-dot {
-
-  0%,
-  100% {
-    opacity: 1;
-    box-shadow: 0 0 0 0 rgba(46, 125, 50, 0.4)
-  }
-
-  50% {
-    opacity: 0.5;
-    box-shadow: 0 0 0 6px rgba(46, 125, 50, 0)
-  }
-}
 
 .hero__tagline {
   font-family: var(--font-display);
@@ -1414,6 +1377,16 @@ section {
   .projects__filter-btn {
     font-size: var(--text-xs);
     padding: var(--space-1) var(--space-3)
+  }
+
+  .skills__grid {
+    gap: var(--space-2)
+  }
+
+  .skill-card {
+    font-size: var(--text-xs);
+    padding: var(--space-2) var(--space-3);
+    border-radius: var(--radius-sm)
   }
 
   .recommendations__grid {
