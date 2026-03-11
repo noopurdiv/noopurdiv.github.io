@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content &mdash; Noopur Divekar</title>
+    <meta name="description"
+        content="LinkedIn posts and thought leadership content by Noopur Divekar - Data Scientist, ML Engineer, and Analytics professional.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .content__grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--space-8);
+            align-items: start;
+        }
+
+        .content__grid iframe {
+            width: 100%;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--color-border-light);
+            box-shadow: var(--shadow-card);
+        }
+
+        .libutton {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: var(--space-2);
+            padding: var(--space-3) var(--space-8);
+            text-align: center;
+            text-decoration: none !important;
+            color: #ffffff !important;
+            border-radius: var(--radius-full);
+            background: linear-gradient(135deg, var(--color-accent), var(--color-accent-light));
+            font-family: var(--font-body);
+            font-size: var(--text-small);
+            font-weight: 600;
+            margin: var(--space-12) auto 0;
+            width: fit-content;
+            transition: all var(--duration-base);
+            letter-spacing: 0.02em;
+        }
+
+        .libutton:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+            opacity: 0.9;
+        }
+
+        .content__grid iframe {
+            scrollbar-width: none;
+        }
+
+        .content__grid>div {
+            overflow: hidden;
+            border-radius: var(--radius-md);
+            position: relative;
+            cursor: pointer;
+            transition: transform var(--duration-base) var(--ease-out);
+        }
+
+        .content__grid>div:hover {
+            transform: translateY(-4px);
+        }
+
+        .post-overlay {
+            position: absolute;
+            inset: 0;
+            z-index: 2;
+        }
+
+        @media (max-width: 1024px) {
+            .content__grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .content__grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- NAV -->
+    <nav class="nav" id="navbar">
+        <div class="nav__inner">
+            <a href="index.html" class="nav__logo">ND.</a>
+            <ul class="nav__links" id="navLinks">
+                <li><a href="index.html#about" class="nav__link">About</a></li>
+                <li><a href="index.html#experience" class="nav__link">Experience</a></li>
+                <li><a href="index.html#skills" class="nav__link">Skills</a></li>
+                <li><a href="index.html#projects" class="nav__link">Projects</a></li>
+                <li><a href="index.html#certifications" class="nav__link">Certifications</a></li>
+                <li><a href="index.html#education" class="nav__link">Education</a></li>
+                <li><a href="index.html#recommendations" class="nav__link">Recommendations</a></li>
+                <li><a href="content.html" class="nav__link active">Content</a></li>
+                <li><a href="index.html#contact" class="nav__link">Contact</a></li>
+            </ul>
+            <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <div class="nav__overlay" id="navOverlay"></div>
+    </nav>
+
+    <!-- CONTENT -->
+    <section id="content" style="padding-top: calc(var(--nav-height) + var(--space-16));">
+        <div class="container">
+            <p class="section-label reveal">Content</p>
+            <h2 class="section-title reveal reveal-delay-1">Thoughts, wins &amp; insights.</h2>
+            <div class="content__grid">
+
+                <div class="reveal">
+                    <a class="post-overlay"
+                        href="https://www.linkedin.com/feed/update/urn:li:activity:7313611551574310912" target="_blank"
+                        rel="noopener"></a>
+                    <iframe
+                        src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7313611551574310912?collapsed=1"
+                        height="700" frameborder="0" scrolling="no" allowfullscreen="" title="Embedded post"></iframe>
+                </div>
+
+                <div class="reveal reveal-delay-1">
+                    <a class="post-overlay" href="https://www.linkedin.com/feed/update/urn:li:share:7402451764550975488"
+                        target="_blank" rel="noopener"></a>
+                    <iframe
+                        src="https://www.linkedin.com/embed/feed/update/urn:li:share:7402451764550975488?collapsed=1"
+                        height="700" frameborder="0" scrolling="no" allowfullscreen="" title="Embedded post"></iframe>
+                </div>
+
+                <div class="reveal reveal-delay-2">
+                    <a class="post-overlay" href="https://www.linkedin.com/feed/update/urn:li:share:7430987210914562048"
+                        target="_blank" rel="noopener"></a>
+                    <iframe
+                        src="https://www.linkedin.com/embed/feed/update/urn:li:share:7430987210914562048?collapsed=1"
+                        height="700" frameborder="0" scrolling="no" allowfullscreen="" title="Embedded post"></iframe>
+                </div>
+
+                <div class="reveal reveal-delay-3">
+                    <a class="post-overlay"
+                        href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7420188204433080320" target="_blank"
+                        rel="noopener"></a>
+                    <iframe
+                        src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7420188204433080320?collapsed=1"
+                        height="700" frameborder="0" scrolling="no" allowfullscreen="" title="Embedded post"></iframe>
+                </div>
+
+                <div class="reveal">
+                    <a class="post-overlay" href="https://www.linkedin.com/feed/update/urn:li:share:7424273965277294592"
+                        target="_blank" rel="noopener"></a>
+                    <iframe
+                        src="https://www.linkedin.com/embed/feed/update/urn:li:share:7424273965277294592?collapsed=1"
+                        height="700" frameborder="0" scrolling="no" allowfullscreen="" title="Embedded post"></iframe>
+                </div>
+
+                <div class="reveal reveal-delay-1">
+                    <a class="post-overlay"
+                        href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7436095930598289408" target="_blank"
+                        rel="noopener"></a>
+                    <iframe
+                        src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7436095930598289408?collapsed=1"
+                        height="700" frameborder="0" scrolling="no" allowfullscreen="" title="Embedded post"></iframe>
+                </div>
+
+            </div>
+            <a class="libutton"
+                href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=noopurd"
+                target="_blank">Follow on LinkedIn for more content</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">&copy; 2026 Noopur Shekhar Divekar All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
